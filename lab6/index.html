@@ -6,6 +6,36 @@
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<h1>Lab 6: More HTML</h1>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<p>The idea if this lab was to create a veriety of diffrent forms</h2>
+	<p>The most challenging part for me was trying to understand the css file</p>
+	<h3>Results</h3>
+	<p>Overall I am satisfied with what I was able to accomplish. I finally figured out how to create submit forms</p>
+	<div>
+		<form action="https://google.com/search" method="GET"
+		    target="_blank">
+		  Favorite manga: <br>
+		  <textarea name="favorite-manga"></textarea><br>
+		  Your full name:<br>
+		  <input type="text" name="q"/><br>
+		  Email password:<br>
+		  <input type="password" name="email-password"/><br>
+		  <label><input type="checkbox" name="human"/>
+		    Do you watch anime?</label><br>
+		  <label><input type="radio" name="subs" value="subs">
+		    I prefer subs.</label><br>
+		  <label><input type="radio" name="subs" value="dubs">
+		    I prefer dubs.</label><br>
+		  <select name="hl">
+		    <!-- <option disabled selected>Please Select</option> -->
 
+		    <option value="one-piece">One Piece</option>
+		    <option value="naruto">Naruto</option>
+		    <option value="bleach">Bleach</option>
+		  </select><br>
+		  <input type="submit" value="Search">
+
+		</form>
 </body>
 </html>
