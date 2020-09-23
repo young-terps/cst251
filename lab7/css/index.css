@@ -1,13 +1,13 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgray;
+    background-color: lightblue;
     padding: 25px;
     font-size: 120%;
 }
 
 div#content {
     padding: 50px;
-    background-color: lightgray;
+    background-color: lightblue;
     border: solid 1px #333333;
     height: 80vh;
 }
