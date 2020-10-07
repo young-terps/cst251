@@ -1,0 +1,29 @@
+body {
+    font-style: italic;color: red;
+    font-family: sans-serif;cursor: alias;
+    margin: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: lightblue;
+    background-color: lightgreen;
+    display: inline-block;
+    min-width: 300px;
+    width: 30%;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    border: 3px solid #73AD21;
+
+
+}
+  div.special {
+    display: inline-block;
+    min-width: 300px;
+    width: 30%;
+}
+  div.relative {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    border: 3px solid #73AD21;
+}
