@@ -1,0 +1,16 @@
+header {
+  border: solid 3px black;
+  float: left;
+}
+footer {
+  border: solid 3px black;
+  float: right;
+}
+nav {
+  border: solid 3px black;
+  float: left;
+}
+main {
+  border: solid 3px black;
+  float: right;
+}

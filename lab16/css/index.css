@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+.content-wrapper{
+  width: 80%;
+  margin: 4% 10% 5% 10%;
+}
+
+.content-wrapper img{
+  width: 100%;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.text-wrapper{
+  width: 100%;
+  position: relative;
+  margin-top: -40%
+}
+
+.text-wrapper h1{
+  text-align: center;
+  color: #ffffff;
+  font-size: 10vw
+  text-shadow: 0 0 5px black;
+}
+
+body {
+ width: 900px;
+ height: 900px;
+ transition: width 2s;
+}
+body:hover {
+ width: 500px;
+}
+body{
+  margin: auto;
+}
+
+html {
+ background: url(art1.jpg) no-repeat center
+fixed;
+ background-size: cover;
+}
+
+body{
+  column-count: 3;
+}

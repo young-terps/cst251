@@ -1,0 +1,29 @@
+header {
+  border: solid 3px black;
+  float:right;
+  width: 20%
+}
+footer {
+  border: solid 3px black;
+  float:right;
+  width: 20%
+}
+nav {
+  border: solid 3px black;
+  float:right;
+  width: 20%
+}
+main {
+  border: solid 3px black;
+  float:right;
+  width: 20%
+}
+.header {
+  float: right;
+  width: 20%
+}
+@media screen and (max-width:800px) {
+  header, footer, nav, main {
+    width:100%;
+  }
+}
