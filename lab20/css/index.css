@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;cursor: alias;
+    margin: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: lightgreen;
+    background-color: lightblue;
+}
+div {
+  border: solid 3px black;
+  float right;
+}
